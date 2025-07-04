@@ -1,0 +1,31 @@
+body{
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        section{
+            padding: 25px;
+            text-align: center;
+        }
+        #btn1{
+            color: black;
+            background-color: rgb(118, 200, 230);
+            border-radius: 25px;
+            border-color: rgb(152, 216, 216);
+        }
+        #btn2{
+            color: white;
+            background-color: rgb(18, 189, 46);
+            border-radius: 25px;
+            border-color: aquamarine;
+        }
+        .copyCode{
+            display: flex;
+            padding: 2px;
+            background-color: rgb(237, 249, 160);
+            border-radius:5px;
+            box-shadow: 5 5 5 rgb(25, 40, 67);
+
+        }
