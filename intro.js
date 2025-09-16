@@ -1,6 +1,6 @@
 let btn1=document.getElementById("btn1");
-        let btn2=document.getElementById("btn2");
-        let copyDiv=document.querySelector(".copyCode");
+let btn2=document.getElementById("btn2");
+let copyDiv=document.querySelector(".copyCode");
 
         const hexValues=()=>{
             let hexvalues="abcdef0123456789";
@@ -16,7 +16,7 @@ let btn1=document.getElementById("btn1");
             let rgb2="#404040";
             console.log(rgb1);
             document.body.style.backgroundImage=`linear-gradient(to right, ${rgb1},${rgb2})`;
-            copyDiv.innerHTML=`background-image : linear-gradient(to right,${rgb1},${rgb2}`;
+            copyDiv.innerHTML=`background-image : linear-gradient(to right,${rgb1},${rgb2})`;
             btn1.innerText=`${rgb1}`;
             btn2.innerText=`${rgb2}`;
         };
